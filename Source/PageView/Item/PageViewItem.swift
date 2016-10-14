@@ -98,7 +98,7 @@ extension PageViewItem {
     let layer = Init(CAShapeLayer()) {
       $0.path        = path.cgPath
       $0.lineWidth   = lineWidth
-      $0.strokeColor = UIColor.white.cgColor
+      $0.strokeColor = UIColor.gray.cgColor
       $0.fillColor   = UIColor.clear.cgColor
     }
     return layer
